@@ -1,0 +1,59 @@
+.main-section {
+    background-color: #dfdfe2;
+    padding: 1rem 23%;
+    padding-bottom: 2.5rem;
+}
+
+.section-information p {
+    padding: 0.85rem 0;
+    height: 100%;
+    font-size: 2rem;
+    font-family: Lato,sans-serif;
+    font-weight: 600;
+    color: #1b1b32;
+}
+
+
+.section-information .last-information {
+    font-size: 1.15rem;
+}
+
+.logos-row {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-between;
+}
+
+.logos-row span {
+    padding: 0.25rem 0.5rem;
+    color: #2a2a40;
+}
+
+.logos-row ion-icon {
+    font-size: 1.75rem;
+}
+
+.logos-row ion-icon:hover {
+    color: black;
+}
+
+.div-cta {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}
+
+.button-cta {
+    width: 500px;
+    height: 55px;
+    background-color: #ffbf00;
+    color: #0a0a23;
+    border: 2px solid #d49f00;
+    font-size: 1.40rem;
+    transition: 200ms all ease-in;
+    margin-top: 1rem;
+}
+
+.button-cta:hover {
+    background-color: #d49f00;
+}

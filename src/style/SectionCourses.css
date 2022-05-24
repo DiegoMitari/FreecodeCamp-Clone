@@ -1,0 +1,35 @@
+.btn-course {
+    margin: 0 auto;
+    width: 750px;
+    height: 82px;
+    color: #1b1b32;
+    background-color: #d0d0d5;
+    margin-bottom: 0.75rem;
+    transition: 200ms all ease-in-out;
+}
+
+.btn-course div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 3px solid 1b1b32;
+    cursor: pointer;
+    font-size: 1.35rem;
+    border:  3px solid #1b1b32;
+}
+
+.btn-course div:hover {
+    background-color: #1b1b32;
+    color: #d0d0d5;
+}
+
+.btn-course div ion-icon {
+    width: 10%;
+    margin: auto 0.25rem;
+    font-size: 2.75rem;
+}
+
+.btn-course div .text-icon {
+    width: 80%;
+}

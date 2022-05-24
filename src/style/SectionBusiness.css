@@ -1,0 +1,33 @@
+
+.section-business {
+    background: #3b3b4f;
+    color: #d0d0d5;
+    padding: 2rem 1rem;
+}
+
+.logo-business {
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.section-business p {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    font-size: 2.75rem;
+}
+
+.logo-business ion-icon {
+    font-size: 3.25rem;
+    padding: 0.5rem 1.35rem;
+    transition: 200ms all ease-in-out;
+}
+
+.logo-business ion-icon:hover {
+    color: #0a0a23;
+}

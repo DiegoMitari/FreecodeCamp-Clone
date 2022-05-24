@@ -1,0 +1,19 @@
+footer {
+    padding: 1.5rem 1rem;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+
+.column-grid {
+    padding-left: 0.75rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.second-column h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto;
+}
