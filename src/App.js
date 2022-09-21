@@ -26,7 +26,7 @@ function App() {
           trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. 
           Dentro de un año tuve un trabajo de seis cifras como ingeniero de software. FreeCodeCamp cambió mi vida.'
         />
-
+        
         {/* 2nd testimonio */}
         <Testimonio
           nombre='Sarah Chima'

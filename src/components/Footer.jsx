@@ -5,6 +5,7 @@ function Footer() {
     return (
         <footer>
             {/* historia */}
+            <div className="main-footer">
             <div className="first-column">
                 <p>freeCodeCamp is a donor-supported tax-exempt 501(c)(3) 
                     nonprofit organization (United States Federal 
@@ -15,7 +16,7 @@ function Footer() {
                      We also have thousands of freeCodeCamp study groups around the world.</p>
                 <p>Donations to freeCodeCamp go toward our education initiatives,
                      and help pay for servers, services, and staff.</p>
-                <p>You can <a href="">make a tax-deductible donation here</a>.</p>
+                <p>You can <a href="" className="link-donation">make a tax-deductible donation here</a>.</p>
             </div>
             {/* enlaces */}
             <div className="second-column">
@@ -23,43 +24,44 @@ function Footer() {
                     <h3>Trending Guides</h3>
                 </div>
                 <div className="column-grid">
-                <div className="footer-col">
-                    <a className="link-footer" href="">Javascript Split()</a>
-                    <a className="link-footer" href="">HTML Bullet Points</a>
-                    <a className="link-footer" href="">What is UX Design?</a>
-                    <a className="link-footer" href="">Dark Mode on Google</a>
-                    <a className="link-footer" href="">Contraction Grammar</a>
-                    <a className="link-footer" href="">What is a JSON file?</a>
-                    <a className="link-footer" href="">Python String Format</a>
-                    <a className="link-footer" href="">Python Tuple vs List</a>
-                    <a className="link-footer" href="">What is Programming?</a>
-                    <a className="link-footer" href="">Check GPU in Windows</a>
+                    <div className="footer-col">
+                        <p><a className="link-footer" href="">Javascript Split()</a></p>
+                        <p><a className="link-footer" href="">HTML Bullet Points</a></p>
+                        <p><a className="link-footer" href="">What is UX Design?</a></p>
+                        <p><a className="link-footer" href="">Dark Mode on Google</a></p>
+                        <p><a className="link-footer" href="">Contraction Grammar</a></p>
+                        <p><a className="link-footer" href="">What is a JSON file?</a></p>
+                        <p><a className="link-footer" href="">Python String Format</a></p>
+                        <p><a className="link-footer" href="">Python Tuple vs List</a></p>
+                        <p><a className="link-footer" href="">What is Programming?</a></p>
+                        <p><a className="link-footer" href="">Check GPU in Windows</a></p>
+                    </div>
+                    <div className="footer-col">
+                        <p><a className="link-footer" href="">Span HTML</a></p>
+                        <p><a className="link-footer" href="">SQL Count</a></p>
+                        <p><a className="link-footer" href="">HTML Comment</a></p>
+                        <p><a className="link-footer" href="">Python strip()</a></p>
+                        <p><a className="link-footer" href="">HTML Select Tag</a></p>
+                        <p><a className="link-footer" href="">Insert into SQL</a></p>
+                        <p><a className="link-footer" href="">MVC Architecture</a></p>
+                        <p><a className="link-footer" href="">What is the DOM?</a></p>
+                        <p><a className="link-footer" href="">HTML Button Type</a></p>
+                        <p><a className="link-footer" href="">SCP Linux Command</a></p>
+                    </div>
+                    <div className="footer-col">
+                        <p><a className="link-footer" href="">HTML File Text Editor</a></p>
+                        <p><a className="link-footer" href="">Responsive Web Design</a></p>
+                        <p><a className="link-footer" href="">Online Coding Classes</a></p>
+                        <p><a className="link-footer" href="">Python String to Array</a></p>
+                        <p><a className="link-footer" href="">Lambda Function Python</a></p>
+                        <p><a className="link-footer" href="">SQL Distinct Statement</a></p>
+                        <p><a className="link-footer" href="">HEIC to JPG on Windows</a></p>
+                        <p><a className="link-footer" href="">Insert Checkbox in Word</a></p>
+                        <p><a className="link-footer" href="">Drop Pin on Google Maps</a></p>
+                        <p><a className="link-footer" href="">Rotate Screen Windows 10</a></p>
+                    </div>
                 </div>
-                <div className="footer-col">
-                    <a className="link-footer" href="">Span HTML</a>
-                    <a className="link-footer" href="">SQL Count</a>
-                    <a className="link-footer" href="">HTML Comment</a>
-                    <a className="link-footer" href="">Python strip()</a>
-                    <a className="link-footer" href="">HTML Select Tag</a>
-                    <a className="link-footer" href="">Insert into SQL</a>
-                    <a className="link-footer" href="">MVC Architecture</a>
-                    <a className="link-footer" href="">What is the DOM?</a>
-                    <a className="link-footer" href="">HTML Button Type</a>
-                    <a className="link-footer" href="">SCP Linux Command</a>
-                </div>
-                <div className="footer-col">
-                    <a className="link-footer" href="">HTML File Text Editor</a>
-                    <a className="link-footer" href="">Responsive Web Design</a>
-                    <a className="link-footer" href="">Online Coding Classes</a>
-                    <a className="link-footer" href="">Python String to Array</a>
-                    <a className="link-footer" href="">Lambda Function Python</a>
-                    <a className="link-footer" href="">SQL Distinct Statement</a>
-                    <a className="link-footer" href="">HEIC to JPG on Windows</a>
-                    <a className="link-footer" href="">Insert Checkbox in Word</a>
-                    <a className="link-footer" href="">Drop Pin on Google Maps</a>
-                    <a className="link-footer" href="">Rotate Screen Windows 10</a>
-                </div>
-                </div>
+            </div>
             </div>
         </footer>
     )

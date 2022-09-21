@@ -1,19 +1,66 @@
 footer {
+    margin-top: 2rem;
     padding: 1.5rem 1rem;
-    display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: center;
+    background-color: #dfdfe2;
+    color: black;
 }
 
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 1.85rem;
+    font-size: 0.9rem;
+}
+
+.first-column {
+    width: 42%;
+    margin: 0px 1rem;
+}
+
+.second-column {
+    width: 50%;
+    margin: 0px auto;
+}
 
 .column-grid {
-    padding-left: 0.75rem;
+    padding-left: 0.8rem;
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+    margin: 0px auto;
+}
+.first-column p {
+    margin-bottom: 1.25rem;
+    line-height: 1.55rem;
 }
 
 .second-column h3 {
     display: flex;
     justify-content: center;
     margin: 0.5rem auto;
+}
+
+.footer-col {
+    margin-left: 0.5rem;
+}
+
+.footer-col p {
+    padding: 0.25rem 0.2rem;
+    text-decoration: none;
+}
+
+.first-column p:last-child {
+    font-weight: bold;
+}
+
+.footer-col p a, .link-donation {
+    text-decoration: none;
+    color: black;
+    transition: 200ms all ease-in-out;
+}
+
+.footer-col p a:hover, .link-donation:hover {
+    text-decoration: underline;
 }

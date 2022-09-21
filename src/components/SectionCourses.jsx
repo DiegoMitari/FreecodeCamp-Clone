@@ -5,7 +5,7 @@ import BtnCourse from "./BtnCourse";
 function SectionCourses() {
     return (
         <div className="">
-            <p>Earn free verified certifications in:</p>
+            <p className="big-heading">Earn free verified certifications in:</p>
             <div>
                 <BtnCourse 
                     nameIcon = 'laptop-outline'
