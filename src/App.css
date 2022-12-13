@@ -36,3 +36,17 @@
    justify-content: center;
    padding-bottom: 2.5rem;
  }
+
+/*REsponsive Web Design*/
+@media screen and (max-width: 991px){ 
+  .contenedor-testimonio {
+    flex-direction: column;
+    width: 70%;
+    border-radius: 0.5rem;
+}
+
+  .imagen-testimonio {
+    border-radius: 0; 
+    width: 100%;
+  }
+}

@@ -57,3 +57,30 @@
 .button-cta:hover {
     background-color: #d49f00;
 }
+
+@media screen and (max-width: 480px) {
+    .main-section {
+        width: 100%;
+        padding: 1rem 5%;
+    }
+
+    .last-information {
+        padding-bottom: 1rem;
+    }
+
+    .logos-row {
+      margin: 0.5rem auto;  
+    }
+
+    .logos-row span {
+        padding: 0.25rem 0.4rem;
+    }
+
+    .logo-row ion-icon {
+        font-size: 1.5rem;
+    }
+    .button-cta {
+        font-size: 1.2rem;
+        width: 260px;
+    }
+}

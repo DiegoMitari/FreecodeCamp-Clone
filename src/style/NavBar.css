@@ -91,3 +91,23 @@ header .img-logo {
 .btn-signIn:hover {
     background-color: #d49f00;
 }
+
+@media screen and (max-width: 480px) {
+    .search-bar {
+      display: none;
+    }
+
+    header .img-logo {
+        width: 170px;
+        height: 25px;
+    }
+    
+    .nav-button {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .btn-signIn {
+        display: none;
+    }
+  } 

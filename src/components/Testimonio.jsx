@@ -1,5 +1,6 @@
 import React from "react";
 import '../style/Testimonio.css';
+import '../App.css';
 
 function Testimonio(props) {
   return (
