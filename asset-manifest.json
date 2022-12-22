@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FreeCodeCamp-Clone/static/css/main.dc7263a9.css",
-    "main.js": "/FreeCodeCamp-Clone/static/js/main.d41a7eae.js",
-    "static/media/testimonio-emma.png": "/FreeCodeCamp-Clone/static/media/testimonio-emma.add10415a5668325d2f2.png",
-    "static/media/testimonio-sarah.png": "/FreeCodeCamp-Clone/static/media/testimonio-sarah.2c504d1ebaf1961e4a40.png",
-    "static/media/testimonio-shawn.png": "/FreeCodeCamp-Clone/static/media/testimonio-shawn.0d373888087fb18fc145.png",
-    "static/media/FreeCodeCamp_logo.png": "/FreeCodeCamp-Clone/static/media/FreeCodeCamp_logo.953cb3f7778c8de120f7.png",
-    "index.html": "/FreeCodeCamp-Clone/index.html",
-    "main.dc7263a9.css.map": "/FreeCodeCamp-Clone/static/css/main.dc7263a9.css.map",
-    "main.d41a7eae.js.map": "/FreeCodeCamp-Clone/static/js/main.d41a7eae.js.map"
+    "main.css": "/FreecodeCamp-Clone/static/css/main.fb405345.css",
+    "main.js": "/FreecodeCamp-Clone/static/js/main.b4be7465.js",
+    "static/media/testimonio-emma.png": "/FreecodeCamp-Clone/static/media/testimonio-emma.add10415a5668325d2f2.png",
+    "static/media/testimonio-sarah.png": "/FreecodeCamp-Clone/static/media/testimonio-sarah.2c504d1ebaf1961e4a40.png",
+    "static/media/testimonio-shawn.png": "/FreecodeCamp-Clone/static/media/testimonio-shawn.0d373888087fb18fc145.png",
+    "static/media/FreeCodeCamp_logo.png": "/FreecodeCamp-Clone/static/media/FreeCodeCamp_logo.953cb3f7778c8de120f7.png",
+    "index.html": "/FreecodeCamp-Clone/index.html",
+    "main.fb405345.css.map": "/FreecodeCamp-Clone/static/css/main.fb405345.css.map",
+    "main.b4be7465.js.map": "/FreecodeCamp-Clone/static/js/main.b4be7465.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc7263a9.css",
-    "static/js/main.d41a7eae.js"
+    "static/css/main.fb405345.css",
+    "static/js/main.b4be7465.js"
   ]
 }
