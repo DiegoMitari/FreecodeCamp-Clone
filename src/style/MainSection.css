@@ -64,6 +64,11 @@
         padding: 1rem 5%;
     }
 
+    .section-information p {
+        font-size: 1.65rem;
+
+    }
+
     .last-information {
         padding-bottom: 1rem;
     }
@@ -83,4 +88,5 @@
         font-size: 1.2rem;
         width: 260px;
     }
+
 }

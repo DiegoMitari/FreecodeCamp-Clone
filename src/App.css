@@ -20,7 +20,7 @@
   font-weight: 700;
   margin: 40px 0;
   margin-bottom: 20px;
-  color: red;
+  color: #d0d0d5
  }
 
  .App {
@@ -38,6 +38,14 @@
  }
 
 /*REsponsive Web Design*/
+
+/* @media screen and (max-width: 480px) {
+  .main-container h2 {
+    padding: 0;
+
+  }
+} */
+
 @media screen and (max-width: 991px){ 
   .contenedor-testimonio {
     flex-direction: column;

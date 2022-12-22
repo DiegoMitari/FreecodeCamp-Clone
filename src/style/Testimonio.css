@@ -35,3 +35,49 @@
     padding: 0.5rem 0.25rem;
     text-align: justify;
 }
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+
+    .main-container h2 {
+        display: block;
+        width: 270px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .contenedor-testimonio {
+        background-color: #0a0a23;
+        color: #d0d0d5;
+        width: 85%;
+        margin: 1rem auto;
+        box-shadow: 3px 3px 3px -1px rgba(0,0,0,0.65);
+        -webkit-box-shadow: 3px 3px 3px -1px rgba(0,0,0,0.65);
+        -moz-box-shadow: 3px 3px 3px -1px rgba(0,0,0,0.65);
+    }
+
+    .imagen-testimonio {
+        border-radius: 0;
+    }
+
+    .contenedor-texto-testimonio {
+        padding: 0.75rem;
+    }
+
+    .cargo-testimonio {
+        margin-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 1.20rem;
+    }
+
+    .texto-testimonio {
+        line-height: 1.4rem;
+    }
+
+}

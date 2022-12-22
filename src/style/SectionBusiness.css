@@ -31,3 +31,34 @@
 .logo-business ion-icon:hover {
     color: #0a0a23;
 }
+
+@media screen and (max-width: 480px) {
+    .logo-business {
+        width: 92%;
+    }
+
+    .section-business {
+        padding: 1rem 0.5rem;
+    }
+
+    .section-business p {
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .logo-business ion-icon {
+        font-size: 2.1rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .main-container {
+       padding: 0.65rem 0;
+        background-color: #3b3b4f;
+    }
+
+    .main-container h2 {
+        font-size: 1.5rem;
+        padding: 1rem auto;
+    }
+    
+}
